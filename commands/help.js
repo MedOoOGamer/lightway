@@ -1,12 +1,14 @@
 module.exports = {    
     name: 'help',
     description: "this is a command to help people with codes on the bot",
-    execute(message, args, Discord){
+    execute(client, message, args, Discord){
         const helpembed = new Discord.MessageEmbed()
         .setColor('#F9F329')
         .setTitle('Help Page')
         .setDescription('This is an embed to help you with bot codes')
         .addFields(
+            {name: 'Play {Music name}', value: 'Makes the bot play music'},
+            {name: 'Leave', value: 'Stop making the bot to play music and leave the channel'},
             {name: 'Help', value: 'Show an embed with all bot commands'},
             {name: 'Clear {number}', value: 'Clears a certian number of messages in the same channels'},
             {name: 'Kick', value: 'Kick members'},

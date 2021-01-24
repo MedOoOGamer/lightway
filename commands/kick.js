@@ -1,7 +1,7 @@
 module.exports = {    
     name: 'kick',
     description: "Kicks Members",
-    execute(message, args){
+    execute(client, message, args, Discord){
         const member = message.mentions.users.first();
         if(message.member.permissions.has('KICK_MEMBERS')){
             if(member){
