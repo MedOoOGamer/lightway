@@ -63,8 +63,8 @@ client.events = new Discord.Collection();
 
 
 
-client.login('ODAyMDcyMzM5ODQ3MzE1NDg3.YAp6Ew.csmu2Kof6NdZAZzTMSHxUn9NUGE');
+//client.login('ODAyMDcyMzM5ODQ3MzE1NDg3.YAp6Ew.csmu2Kof6NdZAZzTMSHxUn9NUGE');
 
-//client.login(process.env.token);
+client.login(process.env.token);
 
 
