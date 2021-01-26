@@ -23,8 +23,8 @@ client.on('guildMemberAdd', guildMember =>{
 
 
 
-client.login('ODAyMDcyMzM5ODQ3MzE1NDg3.YAp6Ew.ptzfn_KFVCt8m4ANszWN9ceDK8w');
+//client.login('ODAyMDcyMzM5ODQ3MzE1NDg3.YAp6Ew.ptzfn_KFVCt8m4ANszWN9ceDK8w');
 
-//client.login(process.env.token);
+client.login(process.env.token);
 
 
