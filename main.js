@@ -26,12 +26,11 @@ client.events = new Discord.Collection();
 // });
 
 
-// client.on('guildMemberAdd', guildMember =>{
-//     let welcomeRole = guildMember.guild.roles.cache.find(role => role.name === 'Light Members');
+client.on('guildMemberAdd', guildMember =>{
+     let welcomeRole = guildMember.guild.roles.cache.find(role => role.name === 'Light Members');
  
-//     guildMember.roles.add(welcomeRole);
-//     guildMember.guild.channels.cache.get('802477687620894720').send(`Welcome <@${guildMember.user.id}> to Light Way server have fun and chill`)
-// });
+     guildMember.roles.add(welcomeRole);/     guildMember.guild.channels.cache.get('802477687620894720').send(`Welcome <@${guildMember.user.id}> to Light Way server have fun and chill`)
+ });
 
  
 // client.on('message', message =>{
